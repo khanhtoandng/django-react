@@ -1,0 +1,39 @@
+
+.overflow {
+  overflow: hidden;
+} 
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+ 
+.card-img-top:hover {
+  transform: scale(1.5);
+} 
+
+.card{
+  height: 555px;
+  width: 310px;
+  margin: 20px;
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card-img{
+  height: 460px;
+}
+
+.filter-bar{
+  margin-right: 200px;
+  margin-top: 20px;
+}

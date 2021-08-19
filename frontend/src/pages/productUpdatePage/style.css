@@ -1,0 +1,68 @@
+.link-page{
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.form-info{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.link-detail::before{
+    content: " >> ";
+}
+
+.main-img{
+    width: 100px;
+    height: 100px;
+}
+
+.btn-Upload,
+.image-upload{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-div{
+   
+    margin-bottom: 130px;
+}
+
+.image-slide-div{
+    margin-top: 100px;
+}
+
+.modal-image{
+    width: auto !important;
+}
+
+.modal-body-image{
+    display: flex;
+    justify-content: center;
+}
+
+div.show-image {
+    position: relative;
+    float:left;
+    margin:5px;
+}
+div.show-image:hover img{
+    opacity:0.5;
+}
+div.show-image:hover input {
+    display: block;
+}
+div.show-image input {
+    position:absolute;
+    display:none;
+}
+div.show-image input.update {
+    top:50%;
+    left:25%;
+}
+div.show-image input.preview {
+    top:50%;
+    right:25%;
+}
